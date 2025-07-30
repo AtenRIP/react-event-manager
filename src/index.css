@@ -1,0 +1,7 @@
+@import '../node_modules/tailwindcss';
+
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

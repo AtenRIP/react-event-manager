@@ -12,6 +12,8 @@ Doba tvorby aplikace byla necelých 6 hodin. Tvořil jsem ji od nuly, nepoužív
 
 Pokud bych chtěl investovat více času a dostat aplikaci dostat ještě o trochu dál, určitě bych převedl většinu základních HTML prvků na Radix UI komponenty. Zároveň bych i stránky aplikace více komponentizoval (například položky menu v sidebaru a formulář na editační stránce). No a hodně by asi udělaly zmiňované custom styly. 
 
+Vyvíjeno a testováno na node@22.
+
 ## Použité technologie
 
 | Technologie / Knihovna    | Účel                                         |

@@ -70,8 +70,10 @@ function EventEditPage() {
         onSubmit={handleSubmit}
         onKeyDown={(e) => {
           if (e.key === 'Enter') {
-            e.preventDefault(); // neodosielať formulár
-            (e.target as HTMLElement).blur(); // stratí fokus
+            // prevent form submit when hitting enter while in input
+            // instead just lose focus so that SeatMap may refresh if needed
+            e.preventDefault();
+            (e.target as HTMLElement).blur();
           }
         }}
       >
@@ -192,7 +194,6 @@ function EventEditPage() {
             </button>
           </div>
 
-          {/* prehľad miest */}
           <SeatsMap
             seatsTotal={form.seatsTotal}
             seatsPerRow={form.seatsPerRow}
